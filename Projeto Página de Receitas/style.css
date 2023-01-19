@@ -1,6 +1,24 @@
+/* Geral */
+
 *{
     padding: 0;
     margin: 0;    
+}
+
+body{
+    font-family: 'Lato', sans-serif;;
+}
+
+h1,h2{
+    color: #ff6b28;
+}
+
+h1{
+    font-weight: 900;
+}
+
+h2{
+    font-weight: 700; 
 }
 
 /* Header */
@@ -21,5 +39,49 @@ header>a{
 }
 
 #logo:hover{
-    width: 260px;
+    width: 255px;
+}
+
+#back-cake{
+    height: 400px;
+    background-image: url(./assets/hero_bolo.jpg);
+    background-size: cover;
+}
+
+/* Main Content */
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 3.8%;
+}
+
+#ingredients{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#ingredients:hover{
+    box-shadow: 0 0 10px grey;
+    border-radius: 12px;
+    cursor: url('./assets/cursor_ingredientes.png'), pointer;
+}
+
+#list-itens{
+    margin: 2.5% 0 2.5% 40px;
+    /* tem que ver o quao forte a cor ta */
+}
+
+#buy-ing{
+    text-decoration: none;
+    color: white;
+    background-color: #ff6b28;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#buy-ing:hover{
+    background-color: #fa783c;
 }
