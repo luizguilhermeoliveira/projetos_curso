@@ -29,14 +29,12 @@ p,li{
     margin: 2.5% 0 2.5% 40px;
 }
 
-    /* Header */
-
-header{
+.header-footer{
     background-color: #ff6b28;
     padding: 8px;
     text-align: center;
 }
-
+    /* Header */
 
 header>a{
     text-decoration: none;
@@ -120,4 +118,12 @@ main{
     box-shadow: 0 0 10px grey;
     border-radius: 12px;
     cursor: url('./assets/cursor_intrucoes.png'), pointer;
+}
+
+footer{
+    color: white;
+}
+
+footer>p>a{
+    color: white;
 }
