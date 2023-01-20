@@ -1,4 +1,4 @@
-/* Geral */
+    /* Geral */
 
 *{
     padding: 0;
@@ -21,7 +21,15 @@ h2{
     font-weight: 700; 
 }
 
-/* Header */
+p,li{
+    font-weight: 700;
+}
+
+.form-texts{
+    margin: 2.5% 0 2.5% 40px;
+}
+
+    /* Header */
 
 header{
     background-color: #ff6b28;
@@ -48,30 +56,28 @@ header>a{
     background-size: cover;
 }
 
-/* Main Content */
+    /* Main Content */
 
 main{
     width: 80%;
     margin: auto;
     margin-top: 3.8%;
+    margin-bottom: 3.8%;
 }
+
+/* Ingredientes */
 
 #ingredients{
     width: 80%;
     margin: auto;
     margin-top: 5%;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
 }
 
 #ingredients:hover{
     box-shadow: 0 0 10px grey;
     border-radius: 12px;
     cursor: url('./assets/cursor_ingredientes.png'), pointer;
-}
-
-#list-itens{
-    margin: 2.5% 0 2.5% 40px;
-    /* tem que ver o quao forte a cor ta */
 }
 
 #buy-ing{
@@ -84,4 +90,34 @@ main{
 
 #buy-ing:hover{
     background-color: #fa783c;
+}
+
+/* Modo de Preparo */
+
+#prepare-mode{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#prepare-mode:hover{
+    box-shadow: 0 0 10px grey;
+    border-radius: 12px;
+    cursor: url('./assets/cursor_preparo.png'), pointer;
+}
+
+/* Intruções adicionais */
+
+#ad-instructions{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#ad-instructions:hover{
+    box-shadow: 0 0 10px grey;
+    border-radius: 12px;
+    cursor: url('./assets/cursor_intrucoes.png'), pointer;
 }
