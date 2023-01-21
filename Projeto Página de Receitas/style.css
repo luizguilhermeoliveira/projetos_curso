@@ -23,6 +23,11 @@ h2{
 
 p,li{
     font-weight: 700;
+    line-height: 24px;
+}
+
+li{
+    margin-bottom: 8px;
 }
 
 .form-texts{
@@ -52,6 +57,7 @@ header>a{
     height: 400px;
     background-image: url(./assets/hero_bolo.jpg);
     background-size: cover;
+    background-position: center;
 }
 
     /* Main Content */
