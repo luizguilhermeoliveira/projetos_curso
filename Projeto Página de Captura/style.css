@@ -7,15 +7,12 @@
 
 body{
     background-color: black;
+    font-family: 'Rubik', sans-serif;
 }
 
 #cent{
     width: 70%;
     margin: auto;
-}
-
-img{
-    height: 200px;
 }
 
     /* Header */
@@ -48,12 +45,14 @@ main{
     box-sizing: border-box;
 }
 
-h2{
+#box-cont-title{
     font-size: 1em;
     width: 100%;
+    font-weight: 700;
 }
 
 .form-box{
+    background-color: white;
     padding: 7px;
     border: 0;
     margin-bottom: 10px;
@@ -85,4 +84,25 @@ select{
 footer{
     background-color: #1F2120;
     color: white;
+    padding: 20px 0;
+}
+
+#speaker{
+    text-align: center;
+}
+
+img{
+    height: 240px;
+    margin-right: 40px;
+}
+
+#speaker-desc{
+   width: 40%;
+   display: inline-block;
+   text-align: left;
+}
+
+#speaker-title{
+    font-size: 1.5em;
+    font-weight: 700;
 }
